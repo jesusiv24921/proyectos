@@ -20,14 +20,14 @@ layout = html.Div([
             dcc.Link('About', href='/about', style={'margin': '10px', 'color': 'white'}),
             dcc.Link('ML', href='/ml', style={'margin': '10px', 'color': 'white'}),
         ], style={'display': 'flex', 'alignItems': 'center', 'gap': '20px'})
-    ], style={'backgroundColor': '#202536', 'overflow': 'visible', 'position': 'relative', 'padding': '20px', 'display': 'flex', 'justifyContent': 'space-between'}),
+    ], style={'backgroundColor': '#202536', 'overflow': 'visible', 'position': 'relative', 'padding': '15px', 'display': 'flex', 'justifyContent': 'space-between'}),
     
     # Segunda sección con logo, título y texto
     html.Div([
         html.Img(src='path/to/logo2.png', style={'height': '60px', 'marginBottom': '20px'}),
-        html.H1('Título Principal', style={'color': 'black', 'font-size': '36px'}),
-        html.P('Este es un texto de ejemplo debajo del título principal.', style={'color': 'black', 'font-size': '18px'})
-    ], style={'backgroundColor': '#323D61', 'padding': '80px', 'text-align': 'center'}),
+        html.H1('Título Principal', style={'color': 'white', 'font-size': '60px'}),
+        html.P('Este es un texto de ejemplo debajo del título principal.', style={'color': 'white', 'font-size': '18px'})
+    ], style={'backgroundColor': '#323D61', 'padding': '100px', 'text-align': 'left'}),
 
     # Bloque de Inyectores
     dcc.Link(href='/Inyectores', children=[
